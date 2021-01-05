@@ -86,11 +86,11 @@ function handleTotalBalance(num) {
 document.getElementById("checkOut").addEventListener("click", function () {
   document.getElementById("phoneCount").value = "0";
   document.getElementById("caseCount").value = "0";
-  document.getElementById("phoneAmount").innerText = "0000";
+  document.getElementById("phoneAmount").innerText = "000";
   document.getElementById("caseAmount").innerText = "00";
-  document.getElementById("subtotalAmount").innerText = "0000";
+  document.getElementById("subtotalAmount").innerText = "000";
   document.getElementById("taxAmount").innerText = "00";
-  document.getElementById("subtotalAmount").innerText = "0000";
+  document.getElementById("subtotalAmount").innerText = "000";
   document.getElementById("totalBalance").innerText = "00";
   alert("Thank u for Order");
 });
